@@ -1,0 +1,415 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #f9f9f9;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-weight: bold;
+}
+
+.navRight div:hover {
+  cursor: pointer;
+  border-bottom: solid 4px #6b9ee7;
+}
+
+.navRight {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+
+#navLast #select {
+  border: none;
+  outline: 0;
+  color: #7e7e7e;
+  font-weight: bold;
+}
+
+.navRight div {
+  color: #7e7e7e;
+  padding: 0.2rem;
+}
+
+.navbar p {
+  color: #7e7e7e;
+  text-align: center;
+}
+
+.navbar p span {
+  color: black;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.container {
+  height: 80%;
+  margin-top: 3rem;
+}
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  height: 70%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.left {
+  position: relative;
+  margin-bottom: 2rem;
+}
+.leftImageContent {
+  background-image: url("https://www.jackjones.com/dw/image/v2/ABBT_PRD/on/demandware.static/-/Library-Sites-bestseller-content-library/default/dwd14dfb11/jackjones/store-assets/country-selector/store-locator.jpg?sw=1600");
+  height: 16rem;
+  width: 16rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.leftImageContent h2 {
+  background-color: #4d505f;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  margin: 0;
+}
+
+.mainLeftContent {
+  background-color: #ffffff;
+  width: 21%;
+}
+
+.mydiv {
+  margin-bottom: 2rem;
+}
+
+.border {
+  width: 80%;
+  height: 0.2rem;
+  background-color: #f8f8f8;
+  margin-left: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.mydiv h3 {
+  margin-left: 2rem;
+  color: #7e7e7e;
+}
+#Select-Option {
+  outline: 0;
+  color: #7e7e7e;
+  font-weight: bold;
+  width: 75%;
+  padding: 0.7rem;
+  border-color: #f1f1f1;
+  border-radius: 5px;
+  margin-left: 1.8rem;
+}
+.box-color {
+  width: 70%;
+  margin-left: 2rem;
+  color: #7e7e7e;
+  margin-bottom: 2rem;
+}
+
+.rightContent {
+  color: #7e7e7e;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0.8rem;
+}
+
+.rightContent div {
+  width: 95%;
+}
+/* .rightContent button {
+  background-color: #ffffff;
+
+  border-radius: 15px;
+  padding: 0.5rem;
+
+  border-style: double;
+} */
+
+.mainContentRight {
+  background-color: #ffffff;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.optionsSelected {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 1rem;
+  margin-top: 0;
+}
+
+.rightSelectContentTop {
+  display: flex;
+  color: #7e7e7e;
+  font-weight: bold;
+  justify-content: space-around;
+  align-items: center;
+  width: 13%;
+  padding: 0.2rem;
+  border-style: solid;
+  border-color: #f1f1f1;
+  border-width: 0.1rem;
+  border-radius: 15px;
+}
+#women {
+  width: 18%;
+}
+
+.displaySelectedItems {
+  margin: 1rem;
+  width: 100%;
+}
+
+.rightSelectContentTop div {
+  padding: 0.2rem;
+}
+
+.rightSelectContentTopLast a {
+  color: #a0bcde;
+}
+input {
+  color: #8f8f8f;
+  margin: 0.32rem;
+  margin-left: 2rem;
+}
+
+label {
+  color: #8f8f8f;
+  margin: 0.3rem;
+}
+
+.displayrow1 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.displayrow2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.displayrow3 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imageName {
+  margin-top: 0.5rem;
+  color: #8f8f8f;
+}
+
+.rowimage {
+  height: 100%;
+  width: 100%;
+}
+.row1 {
+  width: 22%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.imageContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.imageContentDiscount {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.discountintial {
+  color: #acc2e6;
+}
+
+.finalPrice {
+  color: #f4d9b5;
+}
+
+footer {
+  background-color: #596163;
+  color: #969b9e;
+  margin-top: 3rem;
+  font-size: 1rem;
+  line-height: 4;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* 
+.displayrow1 h3,
+.displayrow2 h3,
+.displayrow3 h3 {
+  text-align: center;
+  color: grey;
+} */
+@media screen and (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navRight {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .mainLeftContent {
+    width: 100%;
+  }
+
+  .optionsSelected {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+  }
+
+  .rightSelectContentTop {
+    width: 40%;
+
+    margin-bottom: 1rem;
+  }
+  .mainContentRight {
+    width: 100%;
+  }
+
+  .rightSelectContentTopLast {
+    margin-bottom: 1rem;
+  }
+
+  .rightContent div {
+    text-align: center;
+  }
+  #women {
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+
+  .mydiv {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  #Select-Option {
+    width: 80%;
+    margin: auto;
+
+    margin-left: 1.8rem;
+  }
+
+  .box-color {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  .box-color h3 {
+    margin-left: 2rem;
+    align-items: center;
+  }
+
+  .displayrow1 {
+    flex-direction: column;
+    width: 90%;
+    flex-wrap: wrap;
+  }
+
+  .row1 {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .rowimage {
+    width: 100%;
+  }
+  .displayrow2 {
+    flex-direction: column;
+    width: 90%;
+  }
+  .displayrow3 {
+    flex-direction: column;
+    width: 90%;
+  }
+  footer {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .mainLeftContent {
+    width: 20%;
+  }
+  .mainContentRight {
+    width: 70%;
+  }
+
+  .displaySelectedItems {
+    margin: 0;
+  }
+  input {
+    margin-left: 0.5rem;
+  }
+  .mydiv h3 {
+    margin-left: 0.5rem;
+  }
+
+  .rightSelectContentTop {
+    width: 15%;
+  }
+
+  #women {
+    width: 22%;
+  }
+
+  .optionsSelected {
+    width: 95%;
+  }
+}
